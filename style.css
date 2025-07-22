@@ -2,9 +2,10 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #0033cc;
+  background-color: #0033cc !important;
   color: #fff;
   text-align: center;
+}
 }
 
 .container {
