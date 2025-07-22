@@ -21,7 +21,7 @@ body {
 .container {
   max-width: 600px;
   margin: auto;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 /* Logo Token */
@@ -41,8 +41,8 @@ h1 {
 
 /* Deskripsi Token */
 p.description {
-  font-size: 12rem;
-  margin-bottom: 4rem;
+  font-size: 8rem;
+  margin-bottom: 2rem;
   line-height: 2;
 }
 
@@ -51,8 +51,8 @@ p.description {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 22rem;
-  margin-top: 4rem;
+  gap: 8rem;
+  margin-top: 2rem;
 }
 
 .btn {
