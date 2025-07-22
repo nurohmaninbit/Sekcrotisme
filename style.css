@@ -19,9 +19,9 @@ body {
 
 /* Container utama */
 .container {
-  max-width: 400px;
+  max-width: 600px;
   margin: auto;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 /* Logo Token */
@@ -29,7 +29,7 @@ body {
   width: 180px;
   border-radius: 50%;
   box-shadow: 0 0 40px rgba(255, 255, 255, 0.4);
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
 }
 
 /* Judul Halaman */
@@ -41,8 +41,8 @@ h1 {
 
 /* Deskripsi Token */
 p.description {
-  font-size: 10rem;
-  margin-bottom: 10rem;
+  font-size: 12rem;
+  margin-bottom: 4rem;
   line-height: 2;
 }
 
@@ -51,8 +51,8 @@ p.description {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 4rem;
-  margin-top: 8rem;
+  gap: 22rem;
+  margin-top: 4rem;
 }
 
 .btn {
