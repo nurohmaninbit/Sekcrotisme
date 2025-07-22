@@ -19,14 +19,14 @@ body {
 
 /* Container utama */
 .container {
-  max-width: 800px;
+  max-width: 600px;
   margin: auto;
   padding: 2rem;
 }
 
 /* Logo Token */
 .logo {
-  width: 160px;
+  width: 180px;
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
   margin-bottom: 1.5rem;
@@ -34,7 +34,7 @@ body {
 
 /* Judul Halaman */
 h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   margin-bottom: 1rem;
   animation: fade 2s ease-in;
 }
