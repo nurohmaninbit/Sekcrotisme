@@ -19,7 +19,7 @@ body {
 
 /* Container utama */
 .container {
-  max-width: 600px;
+  max-width: 400px;
   margin: auto;
   padding: 0.5rem;
 }
@@ -34,8 +34,8 @@ body {
 
 /* Judul Halaman */
 h1 {
-  font-size: 6rem;
-  margin-bottom: 2rem;
+  font-size: 4rem;
+  margin-bottom: 1rem;
   animation: fade 1s ease-in;
 }
 
