@@ -34,8 +34,8 @@ body {
 
 /* Judul Halaman */
 h1 {
-  font-size: 12rem;
-  margin-bottom: 4rem;
+  font-size: 6rem;
+  margin-bottom: 2rem;
   animation: fade 1s ease-in;
 }
 
@@ -43,7 +43,7 @@ h1 {
 p.description {
   font-size: 4rem;
   margin-bottom: 1rem;
-  line-height: 1;
+  line-height: 0.5;
 }
 
 /* Tombol Aksi */
@@ -85,12 +85,12 @@ p.description {
 /* Responsif untuk HP */
 @media (max-width: 600px) {
   h1 {
-    font-size: 8rem;
+    font-size: 2rem;
   }
   .description {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .logo {
-    width: 400px;
+    width: 160px;
   }
 }
