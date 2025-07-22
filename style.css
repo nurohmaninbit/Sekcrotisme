@@ -41,7 +41,7 @@ h1 {
 
 /* Deskripsi Token */
 p.description {
-  font-size: 8rem;
+  font-size: 4rem;
   margin-bottom: 2rem;
   line-height: 2;
 }
@@ -51,7 +51,7 @@ p.description {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 8rem;
+  gap: 4rem;
   margin-top: 2rem;
 }
 
