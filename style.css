@@ -1,54 +1,96 @@
-body {
-  font-family: 'Segoe UI', sans-serif;
+/* Reset */
+* {
   margin: 0;
   padding: 0;
-  background-color: #ff66b2; /* pink cerah */
-  color: #fff;
-  text-align: center;
-}
-}
+  box-sizing: border-box;
 }
 
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ff66b2, #cc33ff);
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Container utama */
 .container {
   max-width: 800px;
   margin: auto;
   padding: 2rem;
 }
 
+/* Logo Token */
 .logo {
-  width: 120px;
+  width: 160px;
   border-radius: 50%;
-  margin-bottom: 1rem;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+  margin-bottom: 1.5rem;
 }
 
-.desc {
+/* Judul Halaman */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  animation: fade 2s ease-in;
+}
+
+/* Deskripsi Token */
+p.description {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  line-height: 1.6;
 }
 
-.donate code {
-  background: #222;
-  padding: 0.5rem;
-  border-radius: 6px;
-  display: block;
-  margin: 0.5rem 0;
-  font-size: 0.95rem;
-  word-break: break-all;
+/* Tombol Aksi */
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }
 
-.social li {
-  list-style: none;
-  margin: 0.5rem 0;
-}
-
-.social a {
-  color: #00ffae;
-  text-decoration: none;
+.btn {
+  background: white;
+  color: #cc33ff;
+  padding: 12px 24px;
+  border-radius: 25px;
   font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
-footer {
-  margin-top: 3rem;
-  font-size: 0.9rem;
-  color: #888;
+.btn:hover {
+  background: #cc33ff;
+  color: white;
+}
+
+/* Animasi Fade-in */
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsif untuk HP */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+  .logo {
+    width: 120px;
+  }
 }
