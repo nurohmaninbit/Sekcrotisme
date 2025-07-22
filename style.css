@@ -1,24 +1,52 @@
-
 body {
-  font-family: Arial, sans-serif;
-  background-color: #111;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
   color: #fff;
   text-align: center;
-  padding: 20px;
 }
+
 .container {
-  margin-top: 50px;
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
 }
-a {
-  color: #00ffcc;
+
+.logo {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.desc {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.donate code {
+  background: #222;
+  padding: 0.5rem;
+  border-radius: 6px;
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  word-break: break-all;
+}
+
+.social li {
+  list-style: none;
+  margin: 0.5rem 0;
+}
+
+.social a {
+  color: #00ffae;
   text-decoration: none;
-}
-a.donate-btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #00ffcc;
-  color: #111;
-  border-radius: 5px;
   font-weight: bold;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #888;
 }
