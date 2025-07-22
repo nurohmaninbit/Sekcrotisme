@@ -42,8 +42,8 @@ h1 {
 /* Deskripsi Token */
 p.description {
   font-size: 4rem;
-  margin-bottom: 2rem;
-  line-height: 2;
+  margin-bottom: 1rem;
+  line-height: 1;
 }
 
 /* Tombol Aksi */
@@ -88,9 +88,9 @@ p.description {
     font-size: 8rem;
   }
   .description {
-    font-size: 8rem;
+    font-size: 4rem;
   }
   .logo {
-    width: 200px;
+    width: 400px;
   }
 }
