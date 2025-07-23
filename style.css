@@ -1,82 +1,65 @@
 /* Reset */
 * {
-  margin: 
-  padding: 
-  box-sizing:  border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #ff66cc, #cc33ff);
-  color: #fff;
+  background: linear-gradient(to right, #ff66b2, #cc33ff);
+  color: white;
+  text-align: center;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  text-align: center;
+  padding: 1rem;
 }
+
 /* Container utama */
 .container {
-  max-width: 400px;
+  max-width: 800px;
   margin: auto;
   padding: 2rem;
 }
+
 /* Logo Token */
 .logo {
-  width: 180px;
+  width: 160px;
   border-radius: 50%;
-  margin-bottom: 1rem;
-}
-
-h1 {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
-}
-
-p {
-  font-size: 1.2rem;
-  max-width: 600px;
-  margin: 0 auto 2rem;
-  line-height: 1.6;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+  margin-bottom: 1.5rem;
 }
 
 /* Judul Halaman */
 h1 {
-  font-size: 8rem;
-  margin-bottom: 2rem;
-  animation: fade 0.5s ease-in;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  animation: fade 2s ease-in;
 }
-
-
 
 /* Deskripsi Token */
 p.description {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-  line-height: 0.5;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
 }
-
-
 
 /* Tombol Aksi */
 .buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 4rem;
-  margin-top: 4rem;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }
-
-
 
 .btn {
   background: white;
   color: #cc33ff;
-  padding: 10px 10px;
-  border-radius: 10px;
+  padding: 12px 24px;
+  border-radius: 25px;
   font-weight: bold;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -86,8 +69,6 @@ p.description {
   background: #cc33ff;
   color: white;
 }
-
-
 
 /* Animasi Fade-in */
 @keyframes fade {
@@ -101,17 +82,15 @@ p.description {
   }
 }
 
-
-
 /* Responsif untuk HP */
 @media (max-width: 600px) {
   h1 {
     font-size: 2rem;
   }
   .description {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .logo {
-    width: 400px;
+    width: 120px;
   }
 }
