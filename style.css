@@ -1,8 +1,8 @@
 /* Reset */
 * {
-  margin: 1rem;
-  padding: 0.5rem;
-  box-sizing: 1rem border-box;
+  margin: 
+  padding: 
+  box-sizing:  border-box;
 }
 
 body {
@@ -19,17 +19,17 @@ body {
 
 /* Container utama */
 .container {
-  max-width: 600px;
+  max-width: 400px;
   margin: auto;
   padding: 2rem;
 }
 
 /* Logo Token */
 .logo {
-  width: 180px;
+  width: 200px;
   border-radius: 50%;
-  box-shadow: 0 0 40px rgba(255, 255, 255, 0.4);
-  margin-bottom: 10rem;
+  box-shadow: 0 0 100px rgba(255, 255, 255, 0.4);
+  margin-bottom: 0.5rem;
 }
 
 /* Judul Halaman */
