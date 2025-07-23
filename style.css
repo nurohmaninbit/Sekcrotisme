@@ -35,14 +35,14 @@ body {
 /* Judul Halaman */
 h1 {
   font-size: 4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   animation: fade 1s ease-in;
 }
 
 /* Deskripsi Token */
 p.description {
   font-size: 4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   line-height: 0.5;
 }
 
@@ -52,7 +52,7 @@ p.description {
   flex-wrap: wrap;
   justify-content: center;
   gap: 4rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .btn {
@@ -85,10 +85,10 @@ p.description {
 /* Responsif untuk HP */
 @media (max-width: 600px) {
   h1 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .description {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .logo {
     width: 160px;
