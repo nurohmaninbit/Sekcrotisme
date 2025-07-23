@@ -35,14 +35,14 @@ body {
 /* Judul Halaman */
 h1 {
   font-size: 8rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   animation: fade 2s ease-in;
 }
 
 /* Deskripsi Token */
 p.description {
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   line-height: 1.6;
 }
 
