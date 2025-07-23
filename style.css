@@ -19,14 +19,14 @@ body {
 
 /* Container utama */
 .container {
-  max-width: 800px;
+  max-width: 400px;
   margin: auto;
   padding: 2rem;
 }
 
 /* Logo Token */
 .logo {
-  width: 160px;
+  width: 180px;
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
   margin-bottom: 1.5rem;
@@ -34,14 +34,14 @@ body {
 
 /* Judul Halaman */
 h1 {
-  font-size: 2.5rem;
+  font-size: 10rem;
   margin-bottom: 1rem;
   animation: fade 2s ease-in;
 }
 
 /* Deskripsi Token */
 p.description {
-  font-size: 1.2rem;
+  font-size: 4rem;
   margin-bottom: 2rem;
   line-height: 1.6;
 }
@@ -85,12 +85,12 @@ p.description {
 /* Responsif untuk HP */
 @media (max-width: 600px) {
   h1 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .description {
-    font-size: 1rem;
+    font-size: 4rem;
   }
   .logo {
-    width: 120px;
+    width: 180px;
   }
 }
