@@ -26,15 +26,15 @@ body {
 
 /* Logo Token */
 .logo {
-  width: 180px;
+  width: 200px;
   border-radius: 50%;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.4);
   margin-bottom: 1.5rem;
 }
 
 /* Judul Halaman */
 h1 {
-  font-size: 10rem;
+  font-size: 8rem;
   margin-bottom: 1rem;
   animation: fade 2s ease-in;
 }
@@ -85,12 +85,12 @@ p.description {
 /* Responsif untuk HP */
 @media (max-width: 600px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .description {
     font-size: 2rem;
   }
   .logo {
-    width: 180px;
+    width: 200px;
   }
 }
