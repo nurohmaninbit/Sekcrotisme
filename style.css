@@ -21,7 +21,7 @@ body {
 .container {
   max-width: 350px;
   margin: auto;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 /* Logo Token */
@@ -95,15 +95,16 @@ p.description {
   }
 }
 .tentang kani-text {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 500;
   line-height: 1.6;
   margin-bottom: 4rem;
 }
 
 .donation-text {
-  font-size: 2rem;
+  
+  font-size: 3rem;
   color: #fff;
   margin-top: 1.5rem;
-  line-height: 1.6;
-}
+  line-height: 1.6
+  margin-bottom: 4rem ;}
