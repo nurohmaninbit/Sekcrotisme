@@ -94,3 +94,16 @@ p.description {
     width: 200px;
   }
 }
+.tentang kani-text {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 4rem;
+}
+
+.donation-text {
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 1.5rem;
+  line-height: 1.6;
+}
