@@ -1,8 +1,8 @@
 /* Reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 1rem;
+  padding: 0.5rem;
+  box-sizing: 1rem border-box;
 }
 
 body {
@@ -19,9 +19,9 @@ body {
 
 /* Container utama */
 .container {
-  max-width: 200px;
+  max-width: 600px;
   margin: auto;
-  padding: rem;
+  padding: 2rem;
 }
 
 /* Logo Token */
@@ -43,8 +43,8 @@ h1 {
 
 /* Deskripsi Token */
 p.description {
-  font-size: 4rem;
-  margin-bottom: 2rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
   line-height: 0.5;
 }
 
@@ -101,6 +101,6 @@ p.description {
     font-size: 2rem;
   }
   .logo {
-    width: 160px;
+    width: 400px;
   }
 }
