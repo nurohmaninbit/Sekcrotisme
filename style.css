@@ -34,10 +34,12 @@ body {
 
 /* Judul Halaman */
 h1 {
-  font-size: 4rem;
-  margin-bottom: 4rem;
-  animation: fade 1s ease-in;
+  font-size: 8rem;
+  margin-bottom: 2rem;
+  animation: fade 0.5s ease-in;
 }
+
+
 
 /* Deskripsi Token */
 p.description {
@@ -45,6 +47,8 @@ p.description {
   margin-bottom: 4rem;
   line-height: 0.5;
 }
+
+
 
 /* Tombol Aksi */
 .buttons {
@@ -54,6 +58,8 @@ p.description {
   gap: 4rem;
   margin-top: 4rem;
 }
+
+
 
 .btn {
   background: white;
@@ -70,6 +76,8 @@ p.description {
   color: white;
 }
 
+
+
 /* Animasi Fade-in */
 @keyframes fade {
   from {
@@ -81,6 +89,8 @@ p.description {
     transform: translateY(0);
   }
 }
+
+
 
 /* Responsif untuk HP */
 @media (max-width: 600px) {
